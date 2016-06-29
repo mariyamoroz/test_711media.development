@@ -1,0 +1,114 @@
+body {
+    background-color: #3f51b5;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#preloader{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(92, 88, 90, 0.6);
+    z-index: 1;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+#preloader img{
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    margin-top: -50px;
+    position: relative;
+}
+
+.text-white {
+    color: #fff;
+}
+
+#form {
+    display: block;
+    margin: 110px auto 0;
+    text-align: center;
+}
+
+legend {
+    font-size: 24px;
+    margin: 0 auto 60px;
+}
+
+#form input {
+    display: inline-block;
+    height: 50px;
+    width: 40%;
+    border: 1px solid #fff;
+    background-color: #3f51b5;
+    padding-left: 15px;
+    color: #fff;
+    font-size: 18px;
+}
+
+#form button, #clear {
+    background-color: #fff;
+    color: #3f51b5;
+    border: 1px solid #fff;
+    padding: 0 5px;
+    width: 80px;
+    font-size: 14px;
+}
+
+#form button[type="submit"] {
+    margin-left:-5px;
+    height: 54px;
+    line-height: 52px;
+}
+
+.error-state > input {
+    border-color: #f2132d;
+}
+
+#errorMsg {
+    color: #f2132d;
+    font-weight: bold;
+    display: block;
+    position: absolute;
+    margin: 15px auto 0;
+    width: 60%;
+}
+
+#clear {
+    display: block;
+    margin: 80px auto 0;
+    height: 35px;
+}
+
+::-webkit-input-placeholder {
+    color:#fff;
+}
+::-moz-placeholder {
+    color:#fff;
+}
+:-moz-placeholder {
+    color:#fff;
+}
+:-ms-input-placeholder {
+    color:#fff;
+}
+
+#cityList {
+    list-style-type: none;
+    font-size: 24px;
+    width: 50%;
+    margin: 20px auto 0;
+}
+#cityList li {
+    height: 50px;
+    line-height: 50px;
+}
+
+#cityList li:before {
+    content: '- ';
+}
+
+#cityList img {
+}

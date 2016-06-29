@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Get the weather</title>
+
+    <link rel="stylesheet" href="styles.css"/>
+
+</head>
+<body>
+    <div>
+        <form id="form" class="text-white">
+            <legend class="text-white">Get the weather</legend>
+            <input type="text" name="city" placeholder="What's the weather in ..." autocomplete="off">
+            <button type="submit">Search</button>
+            <span id="errorMsg"></span>
+        </form>
+
+        <div>
+            <ul id="cityList" class="text-white dash-list"></ul>
+        </div>
+        <button id="clear" type="reset">clear</button>
+    </div>
+
+    <div id="preloader">
+        <img src="preloader.gif" alt="">
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
