@@ -69,7 +69,7 @@
         cities.forEach(function (city) {
 
             var weather = city.sys.country+': '+city.main.temp+'°C, '+city.weather[0].description+
-                '<img src="http://openweathermap.org/img/w/'+city.weather[0].icon+'.png">';
+                '<img src="https://openweathermap.org/img/w/'+city.weather[0].icon+'.png">';
 
             var weatherStyle = weather.fontsize(3);
             html += '<li>'
