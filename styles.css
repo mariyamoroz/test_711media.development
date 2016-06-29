@@ -63,10 +63,6 @@ legend {
     line-height: 52px;
 }
 
-.error-state > input {
-    border-color: #f2132d;
-}
-
 #errorMsg {
     color: #f2132d;
     font-weight: bold;
@@ -111,4 +107,5 @@ legend {
 }
 
 #cityList img {
+    vertical-align: middle;
 }
